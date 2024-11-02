@@ -1,0 +1,15 @@
+.html5-play-progress, .ytp-play-progress {
+  background: #FF0000 !important; 
+}
+
+div.ytp-scrubber-button.ytp-swatch-background-color {  
+  background: #FF0000 !important; 
+}
+
+div.YtProgressBarLineProgressBarPlayed.YtProgressBarLineProgressBarPlayedRefresh {
+   background: #FF0000 !important; 
+}
+
+div.style-scope.ytd-thumbnail-overlay-resume-playback-renderer {
+  background: #FF0000 !important;
+}

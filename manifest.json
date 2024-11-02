@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Make YouTube Red Again",
+  "version": "1.0",
+  "description": "Changes the YouTube progress bar back to red",
+  "license": "Unlicense",
+  "homepage_url": "https://github.com/desonov/make-youtube-red-again",
+  "icons": {
+    "48": "icon.svg"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
